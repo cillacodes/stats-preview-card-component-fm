@@ -88,11 +88,13 @@ footer {
     color: hsl(277, 64%, 61%);
 }
 
-@media screen and (max-width: 400px) {
+@media(max-width: 375px) {
     .content-container {
-        display: flex;
+        /* display: flex; */
         flex-direction: column;
            
     }
+
+
 
 }
