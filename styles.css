@@ -20,7 +20,7 @@ body {
     bottom: 30%;
     height: 400px;
     width: 950px;
-    padding-top: 16em;
+    padding-top: 8em;
 }
 
 .text-container {
@@ -88,13 +88,11 @@ footer {
     color: hsl(277, 64%, 61%);
 }
 
-@media(max-width: 375px) {
+@media(min-width: 375px) {
     .content-container {
-        /* display: flex; */
-        flex-direction: column;
-           
+        /* display: flex;
+        flex-direction: column;    */
     }
 
-
-
+    
 }
